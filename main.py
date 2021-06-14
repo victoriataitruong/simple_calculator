@@ -1,7 +1,4 @@
-# Python program to create a simple GUI
-# calculator using Tkinter
- 
-# import everything from tkinter module
+# import libraries
 from tkinter import *
  
 # globally declare the expression variable
@@ -58,7 +55,6 @@ def clear():
     global expression
     expression = ""
     equation.set("")
- 
  
 # Driver code
 if __name__ == "__main__":
